@@ -1,37 +1,32 @@
-# excel-aws-add-in-visualstudio-code
+# Office-Addin-TaskPane-JS
 
-## Prerequisites
-- Node.js is to be installed.
-- install generator.
-  - npm install -g yo generator-office
+This repository contains the source code used by the [Yo Office generator](https://github.com/OfficeDev/generator-office) when you create a new Office Add-in that appears in the task pane. You can also use this repository as a sample to base your own project from if you choose not to use the generator. 
 
-## Develop
+## JavaScript
 
-**Step 1:**
-- $ yo office
-  - ? Choose a project type: _[Office Add-in Task Pane project]_
-  - ? Choose a script type: _[JavaScript]_
-  - ? What do you want to name your add-in? _[AWS Add-in]_
-  - ? Which Office client application would you like to support? _[Excel]_
-  
-**Step 2:**
-- Go the directory where your project was created:
+This template is written using JavaScript. For the [TypeScript](http://www.typescriptlang.org/) version of this template, go to [Office-Addin-TaskPane](https://github.com/OfficeDev/Office-Addin-TaskPane).
 
-         cd C:\Users\priva\AWS Add-in
+## Debugging
 
-- Start the local web server and sideload the add-in:
+This template supports debugging using any of the following techniques:
 
-         npm start
+- [Use a browser's developer tools](https://docs.microsoft.com/office/dev/add-ins/testing/debug-add-ins-in-office-online)
+- [Attach a debugger from the task pane](https://docs.microsoft.com/office/dev/add-ins/testing/attach-debugger-from-task-pane)
+- [Use F12 developer tools on Windows 10](https://docs.microsoft.com/office/dev/add-ins/testing/debug-add-ins-using-f12-developer-tools-on-windows-10)
 
-- Open the project in VS Code:
+## Questions and comments
 
-         code .
-         
-## Reference
-- [AWS SDK for JavaScript](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/)
+We'd love to get your feedback about this sample. You can send your feedback to us in the *Issues* section of this repository.
 
-## FAQ
-- Q："We can't open this add-in from localhost" when loading an Office add-in
-  - A-1: one reason is [reference](https://docs.microsoft.com/en-us/office/troubleshoot/error-messages/cannot-open-add-in-from-localhost)
-  - A-2: one reason is that you should start local web server. **npm start**
-  
+Questions about Microsoft Office 365 development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-js+API).  If your question is about the Office JavaScript APIs, make sure it's tagged with  [office-js].
+
+## Additional resources
+
+* [Office add-in documentation](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+* More Office Add-in samples at [OfficeDev on Github](https://github.com/officedev)
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Copyright
+
+Copyright (c) 2019 Microsoft Corporation. All rights reserved.
